@@ -1,0 +1,8 @@
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\bin\Debug\Ramirez Company.dacpac
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\Ramirez Company.sqlproj.AssemblyReference.cache
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\Model.xml
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\refactor.xml
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\postdeploy.sql
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\predeploy.sql
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\Ramirez_Company.dll
+C:\Ramirez Solution\Ramirez Company\Ramirez Company\obj\Debug\Ramirez_Company.pdb
