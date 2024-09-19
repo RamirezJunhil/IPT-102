@@ -1,0 +1,64 @@
+﻿@page "/Profile"
+
+<h3></h3>
+
+<div class="profile">
+    <div class="profile-info">
+        <h4>@Name</h4>
+        <p><strong>Occupation:</strong> @Occupation</p>
+        <p><strong>Location:</strong> @Location</p>
+        <p><strong>Interests:</strong> @string.Join(", ", Interests)</p>
+        <q><strong>About Me:</strong> @AboutMe</q>
+    </div>
+    <img src="https://scontent.fcgy2-4.fna.fbcdn.net/v/t39.30808-6/457123679_524666683413381_2767624816337712243_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHEsQDimenWSjzLPEeFA8Wys_vuFFAAS0Kz--4UUABLQvuy_X72BdoAFFfzdXEvGTkAs6G1G48BK5SfIe13m3_b&_nc_ohc=n1t62rLpyY4Q7kNvgE17yNf&_nc_ht=scontent.fcgy2-4.fna&_nc_gid=AHC0OpxgbeyrCab2Eu8FLn3&oh=00_AYDFimxma3pKaYVcbkqudInRUYX7ibF9554wQJYTsYHTIw&oe=66EDA179"
+         alt="Profile Picture"
+         class="profile-picture" />
+</div>
+
+@code {
+    private string Name = "JUNHIL D. RAMIREZ";
+    private string Occupation = "STUDENT";
+    private string Location = "SAUDI ARABIA";
+    private List<string> Interests = new List<string> { "WORKOUT" };
+    private string AboutMe = "I’m Junhil Ramirez, and I’m pumped to be a part of this gym community! I’m here to challenge myself and reach new fitness milestones, whether it’s through intense weightlifting sessions, dynamic cardio workouts, or revitalizing yoga practices. I thrive on setting and smashing goals, and I love the energy and camaraderie of working out alongside others who share my passion for health and wellness. Outside the gym, you might find me DOING CHEST PROGRAM, as I believe in balancing hard work with fun. Let’s stay motivated, support each other, and make every workout count!.";
+}
+
+<style>
+    .profile {
+        display: flex;
+        align-items: center;
+        max-width: 1000px; /* Adjusted to allow space for both picture and text */
+        margin: 0 auto;
+        border: 1px solid #ddd; /* Optional: to visualize the profile container */
+        padding: 10px;
+    }
+
+    .profile-info {
+        flex: 1;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        padding-right: 20px; /* Space between text and picture */
+    }
+
+    .profile-picture {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+    h4, p, q {
+        margin: 5px 0;
+        font-family: 'Times New Roman', Times, serif;
+        color: auto;
+    }
+
+    h4 { 
+        font-size: 1.5rem;
+    }
+
+    p, q {
+        font-size: 1rem;
+    }
+</style>

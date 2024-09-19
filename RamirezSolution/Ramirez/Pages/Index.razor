@@ -1,0 +1,65 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #333; /* Dark background for better contrast */
+            color: white;
+            text-align: center;
+        }
+
+        .intro-text {
+            background-color: black;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 10px;
+            cursor: pointer;
+            background-color: white; /* Button color */
+            color: black;
+            border: thick;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="intro-text">
+        Hi,I'm DJ, and I’m thrilled to be part of this fitness app community! I’m here to stay motivated, set and achieve my personal fitness goals, and make the most out of every workout. With a mix of dedication and enthusiasm, I’m ready to push my limits and track my progress alongside fellow fitness enthusiasts. Let’s crush our goals together and make every step count on this fitness journey!!
+    </h1>
+    <button class="btn" onclick="speakText()">READ ME</button>
+
+    <script>
+        function speakText() {
+            const text = document.querySelector('.intro-text').innerText; // Get text content
+            const speech = new SpeechSynthesisUtterance(text); // Create a new SpeechSynthesisUtterance instance
+            speech.lang = 'eng-US'; // Set language (English in this case)
+            speech.pitch = 165; // Adjust pitch (1 is normal)
+            speech.rate = 1; // Adjust rate (1 is normal speed)
+
+            // Event listener for when the speech synthesis finishes
+            speech.onend = function (event) {
+                console.log('Speech has finished.');
+                // Optionally, add any additional actions here
+            };
+
+            window.speechSynthesis.speak(speech); // Speak the text
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://m.media-amazon.com/images/I/71t2iMRG+rL._AC_UF894,1000_QL80_.jpg); /* Add your image path here */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+main {
+    flex: 1;
+}
+
+.sidebar {
+    background-color: transparent; /* Changed to black */
+    width: 250px; /* Ensures consistent sidebar width */
+    height: 100vh; /* Full viewport height */
+    position: sticky; /* Stays in place */
+    top: 0; /* Sticks to the top */
+}
+
+.top-row {
+    background-color: aqua;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row ::deep a, .top-row .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth) {
+        display: none; /* Hide the top row on small screens */
+    }
+
+    .top-row.auth {
+        justify-content: space-between;
+    }
+
+    .top-row a, .top-row .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row; /* Adjust layout for larger screens */
+    }
+
+    .top-row {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row, article {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
