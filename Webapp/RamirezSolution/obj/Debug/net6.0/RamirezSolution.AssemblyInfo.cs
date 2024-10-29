@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RamirezSolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a1646fb62e634c83774117b22f211950dbb52a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b4e171e0e45dcdfbafca4036dfb692b2f0758a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RamirezSolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RamirezSolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
