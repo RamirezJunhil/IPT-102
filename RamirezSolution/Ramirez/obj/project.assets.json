@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\Ramirez.csproj",
+      "projectUniqueName": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\Ramirez.csproj",
       "projectName": "Ramirez",
-      "projectPath": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\Ramirez.csproj",
+      "projectPath": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\Ramirez.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\",
+      "outputPath": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

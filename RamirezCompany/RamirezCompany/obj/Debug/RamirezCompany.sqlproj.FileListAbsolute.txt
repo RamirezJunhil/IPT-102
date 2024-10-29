@@ -1,0 +1,6 @@
+C:\web\RamirezCompany\RamirezCompany\bin\Debug\RamirezCompany.dacpac
+C:\web\RamirezCompany\RamirezCompany\bin\Debug\RamirezCompany.dll
+C:\web\RamirezCompany\RamirezCompany\bin\Debug\RamirezCompany.pdb
+C:\web\RamirezCompany\RamirezCompany\obj\Debug\RamirezCompany.sqlproj.AssemblyReference.cache
+C:\web\RamirezCompany\RamirezCompany\obj\Debug\RamirezCompany.dll
+C:\web\RamirezCompany\RamirezCompany\obj\Debug\RamirezCompany.pdb

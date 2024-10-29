@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XOw6gbaxTGZIlY716Ek5vokDVYjFrMWKwvYHK7fezyw=",
+  "Hash": "Gdz1jEvvZRRj/nQpz2A4rVCSHL523wxqDUegrDVFjvE=",
   "Source": "Ramirez",
   "BasePath": "_content/Ramirez",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Ramirez\\wwwroot",
       "Source": "Ramirez",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ramirez.styles.css",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ramirez.styles.css",
       "SourceId": "Ramirez",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "Ramirez.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ramirez.styles.css"
+      "OriginalItemSpec": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ramirez.styles.css"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ramirez.bundle.scp.css",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ramirez.bundle.scp.css",
       "SourceId": "Ramirez",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "Ramirez.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ramirez.bundle.scp.css"
+      "OriginalItemSpec": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ramirez.bundle.scp.css"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\site.css",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\css\\site.css",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\favicon.ico",
+      "Identity": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\favicon.ico",
       "SourceId": "Ramirez",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RAMIREZ WEB APP\\RAMIREZ WEB APP\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
+      "ContentRoot": "C:\\web\\IPT-102\\RamirezSolution!\\RamirezSolution\\Ramirez\\wwwroot\\",
       "BasePath": "_content/Ramirez",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

@@ -1,24 +1,37 @@
 /* _content/Ramirez/Shared/MainLayout.razor.rz.scp.css */
+html[b-2q5wkdpweq], body[b-2q5wkdpweq] {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient-b-2q5wkdpweq 15s ease infinite;
+}
+
 .page[b-2q5wkdpweq] {
-    position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(https://m.media-amazon.com/images/I/71t2iMRG+rL._AC_UF894,1000_QL80_.jpg); /* Add your image path here */
-    background-size: cover; /* Ensures the background image covers the entire area */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures full-page height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 main[b-2q5wkdpweq] {
     flex: 1;
+    padding: 1rem;
 }
 
 .sidebar[b-2q5wkdpweq] {
-    background-color: transparent; /* Changed to black */
-    width: 250px; /* Ensures consistent sidebar width */
-    height: 100vh; /* Full viewport height */
-    position: sticky; /* Stays in place */
-    top: 0; /* Sticks to the top */
+    background-color: transparent;
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 .top-row[b-2q5wkdpweq] {
@@ -28,6 +41,7 @@ main[b-2q5wkdpweq] {
     height: 3.5rem;
     display: flex;
     align-items: center;
+    padding: 0 1rem;
 }
 
     .top-row[b-2q5wkdpweq]  a, .top-row .btn-link[b-2q5wkdpweq] {
@@ -42,7 +56,7 @@ main[b-2q5wkdpweq] {
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-2q5wkdpweq] {
-        display: none; /* Hide the top row on small screens */
+        display: none;
     }
 
     .top-row.auth[b-2q5wkdpweq] {
@@ -56,7 +70,7 @@ main[b-2q5wkdpweq] {
 
 @media (min-width: 641px) {
     .page[b-2q5wkdpweq] {
-        flex-direction: row; /* Adjust layout for larger screens */
+        flex-direction: row;
     }
 
     .top-row[b-2q5wkdpweq] {
@@ -70,14 +84,135 @@ main[b-2q5wkdpweq] {
         padding-right: 1.5rem !important;
     }
 }
+
+@keyframes gradient-b-2q5wkdpweq {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section[b-2q5wkdpweq] {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(#333, #000);
+}
+
+.leaf[b-2q5wkdpweq] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+    .leaf div[b-2q5wkdpweq] {
+        position: absolute;
+        display: block;
+    }
+
+        .leaf div:nth-child(1)[b-2q5wkdpweq] {
+            left: 20%;
+            animation: fall-b-2q5wkdpweq 15s linear infinite;
+            animation-delay: -2s;
+        }
+
+        .leaf div:nth-child(2)[b-2q5wkdpweq] {
+            left: 70%;
+            animation: fall-b-2q5wkdpweq 15s linear infinite;
+            animation-delay: -4s;
+        }
+
+        .leaf div:nth-child(3)[b-2q5wkdpweq] {
+            left: 10%;
+            animation: fall-b-2q5wkdpweq 20s linear infinite;
+            animation-delay: -7s;
+        }
+
+        .leaf div:nth-child(4)[b-2q5wkdpweq] {
+            left: 50%;
+            animation: fall-b-2q5wkdpweq 18s linear infinite;
+            animation-delay: -5s;
+        }
+
+        .leaf div:nth-child(5)[b-2q5wkdpweq] {
+            left: 85%;
+            animation: fall-b-2q5wkdpweq 14s linear infinite;
+            animation-delay: -5s;
+        }
+
+        .leaf div:nth-child(6)[b-2q5wkdpweq] {
+            left: 15%;
+            animation: fall-b-2q5wkdpweq 16s linear infinite;
+            animation-delay: -10s;
+        }
+
+        .leaf div:nth-child(7)[b-2q5wkdpweq] {
+            left: 90%;
+            animation: fall-b-2q5wkdpweq 15s linear infinite;
+            animation-delay: -4s;
+        }
+
+@keyframes fall-b-2q5wkdpweq {
+    0% {
+        opacity: 1;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+
+    20% {
+        opacity: 0.8;
+        transform: translateX(-20px) rotate(45deg);
+    }
+
+    40% {
+        transform: translateX(-20px) rotate(90deg);
+    }
+
+    60% {
+        transform: translateX(-20px) rotate(135deg);
+    }
+
+    80% {
+        transform: translateX(-20px) rotate(180deg);
+    }
+
+    100% {
+        top: 110%;
+        transform: translateX(-20px) rotate(225deg);
+    }
+}
+
+.leaf1[b-2q5wkdpweq] {
+    transform: rotateX(180deg);
+}
+
+h2[b-2q5wkdpweq] {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    font-family: 'Courgette', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+}
 /* _content/Ramirez/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-ltpsb3o0c3] {
-    background-color: gray;
+    /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
 .top-row[b-ltpsb3o0c3] {
     height: 3.5rem;
-    background-color: black;
+    /* background-color: rgba(0,0,0,0.4); */
 }
 
 .navbar-brand[b-ltpsb3o0c3] {
@@ -105,7 +240,7 @@ main[b-2q5wkdpweq] {
     }
 
     .nav-item[b-ltpsb3o0c3]  a {
-        color: black;
+        color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -113,15 +248,15 @@ main[b-2q5wkdpweq] {
         line-height: 3rem;
     }
 
-.nav-item[b-ltpsb3o0c3]  a.active {
-    background-color: black;
-    color: white;
-}
+        .nav-item[b-ltpsb3o0c3]  a.active {
+            /* background-color: rgba(255,255,255,0.25); */
+            color: white;
+        }
 
-.nav-item[b-ltpsb3o0c3]  a:hover {
-    background-color: black;
-    color: white;
-}
+        .nav-item[b-ltpsb3o0c3]  a:hover {
+            /* background-color: rgba(255,255,255,0.1); */
+            color: white;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-ltpsb3o0c3] {
