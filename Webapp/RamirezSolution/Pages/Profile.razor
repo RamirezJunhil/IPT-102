@@ -1,0 +1,67 @@
+﻿@page "/Profile"
+<h3>PROFILE</h3>
+
+<div class="profile-container">
+    <div class="profile-details">
+        <h4>@Name</h4>
+        <p><strong>Location:</strong> @Location</p>
+        <p><strong>Interests:</strong> @string.Join(", ", Interests)</p>
+        <q><strong>About Me:</strong> @AboutMe</q>
+    </div>
+
+    <img src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/461293727_545103958036320_8779595619658088844_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFCbzaqLuddH_y4uaVTj-JVYvEzISbZbzxi8TMhJtlvPAAeAKX_t-cZkGS3OM7G2qk3YMIPtfUpbMPPEyZgd22G&_nc_ohc=Heva6TroLrsQ7kNvgGQsOGy&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&_nc_gid=ALaMsaV8X57Z4LLwfPAyY-T&oh=00_AYBIhCSSC9kaGYlc-6yLH5qoPI0P1dOv1Wk8HpGeOTsm0A&oe=67273D9A"
+         alt="Profile Picture"
+         class="profile-picture" />
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    h3{
+        font-size: 500%;
+        font-style: initial;
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-details {
+        flex: 1; 
+        margin-right: 20px; 
+    }
+
+    .profile-picture {
+        width: 150px; 
+        height: auto; 
+        border-radius: 50%; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    q {
+        display: block; 
+        margin-top: 10px;
+        font-style: initial;
+        color: black;
+    }
+</style>
+
+@code {
+    private string Name = "JUNHIL RAMIREZ";
+    private string Location = "Barangiran, Alamada Cotabato";
+    private List<string> Interests = new List<string> { "Programming", "Software Development", "Database Design", "Networking Concepts" };
+    private string AboutMe = "Hello! My name is DJ, and I am passionate about information technology. With a strong foundation in programming, database management, and networking concepts, I thrive on the challenges and opportunities that the tech world presents. My journey in IT began with a fascination for how technology can solve real-world problems and enhance everyday life.";
+}
