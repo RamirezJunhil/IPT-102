@@ -1,63 +1,89 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">FITNESS APP</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
+        <button title="Toggle navigation bar" class="btn btn-secondary ms-2" @onclick="ToggleNavMenu">
+            <i class="fas fa-bars"></i> <!-- Font Awesome icon -->
         </button>
     </div>
 </div>
 
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-        Home
-    </NavLink>
+<!-- Navigation Bar Links -->
+<div class="@NavMenuCssClass nav-bar-links">
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            Home
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="Video">
+            Video
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="Music">
+            Music
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="Profile">
+            Profile
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="contact-us">
+            Contact us
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="Event">
+            Event
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="Interaction">
+            Interaction
+        </NavLink>
+    </div>
 </div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="Video">
-        Video
-    </NavLink>
-</div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="Music">
-        Music
-    </NavLink>
-</div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="Profile">
-        Profile
-    </NavLink>
-</div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="contact-us">
-        Contact us
-    </NavLink>
-</div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="Event">
-        Event
-    </NavLink>
-</div>
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="Interaction">
-        Interaction
-    </NavLink>
-</div>
-
-
 
 @code {
     private bool collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse-nav-bar" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
 }
+
+<style>
+    .top-row {
+        background-color: #343a40; /* Dark background color for navbar */
+        color: #ffffff;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .btn-secondary {
+        color: #ffffff;
+    }
+
+    .nav-link {
+        color: #ffffff;
+    }
+
+    .nav-link:hover {
+        color: #cccccc;
+    }
+
+    /* Custom class to collapse navigation bar */
+    .collapse-nav-bar {
+        display: none !important;
+    }
+</style>
+
+<!-- Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">

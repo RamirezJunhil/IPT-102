@@ -18,12 +18,9 @@
 
     private void SaveProfile()
     {
-        if (string.IsNullOrWhiteSpace(Name) ||
-            Age <= 0 ||
-            string.IsNullOrWhiteSpace(School) ||
-            string.IsNullOrWhiteSpace(Email) ||
-            !IsValidEmail(Email) ||
-            string.IsNullOrWhiteSpace(Address))
+        if (string.IsNullOrWhiteSpace(Name) || Age <= 0 ||
+            string.IsNullOrWhiteSpace(School) || string.IsNullOrWhiteSpace(Email) ||
+            !IsValidEmail(Email) || string.IsNullOrWhiteSpace(Address))
         {
             ErrorMessage = "All fields are required, and the email must be valid.";
             return;
@@ -57,7 +54,7 @@
             userProfiles.Add(newProfile);
         }
 
-        ClearForm();
+        ClearFormFields();
         ErrorMessage = string.Empty;
     }
 
@@ -88,6 +85,12 @@
 
     private void ClearForm()
     {
+        ClearFormFields();
+        userProfiles.Clear();
+    }
+
+    private void ClearFormFields()
+    {
         ID = 0;
         Name = string.Empty;
         Age = 0;
@@ -114,8 +117,76 @@
 }
 
 <style>
-    .table-background {
-        background-color: #f8f9fa; /* Example background color */
+    /* Unique table styling centered */
+    .custom-table {
+        max-width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        font-family: 'Arial', sans-serif;
+        background-color: #f3f4f6;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .custom-table thead th {
+            background-color: #4a5568;
+            color: #ffffff;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .custom-table tbody tr {
+            transition: background-color 0.3s ease;
+        }
+
+            .custom-table tbody tr:nth-child(even) {
+                background-color: #e2e8f0;
+            }
+
+            .custom-table tbody tr:hover {
+                background-color: #cbd5e0;
+            }
+
+        .custom-table td {
+            padding: 12px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            font-size: 15px;
+        }
+
+    .table-actions button {
+        margin: 0 5px;
+    }
+
+    /* Style for header text */
+    .header-text {
+        font-size: 24px;
+        color: #2d3748;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Form container styling */
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #edf2f7;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-container .form-group label {
+            color: #2d3748;
+            font-weight: bold;
+        }
+
+    .button-container {
+        text-align: center;
+        margin-top: 15px;
     }
 </style>
 
@@ -149,13 +220,13 @@
         <div class="alert alert-danger">@ErrorMessage</div>
     }
     <div class="button-container">
-        <button class="btn btn-primary" @onclick="SaveProfile">@(isEditMode ? "Update" : "Create")</button>
+        <button class="btn btn-primary" @onclick="SaveProfile">@(isEditMode ? "UPDATE" : "CREATE")</button>
         <button class="btn btn-secondary" @onclick="ClearForm">Clear</button>
     </div>
 </div>
 
 <h3 class="header-text">PROFILES</h3>
-<table class="table table-striped table-bordered table-background">
+<table class="custom-table">
     <thead>
         <tr>
             <th>ID</th>
@@ -177,7 +248,7 @@
                 <td>@profile.School</td>
                 <td>@profile.Email</td>
                 <td>@profile.Address</td>
-                <td>
+                <td class="table-actions">
                     <button class="btn btn-warning btn-sm" @onclick="() => EditProfile(profile.ID)">UPDATE</button>
                     <button class="btn btn-danger btn-sm" @onclick="() => DeleteProfile(profile.ID)">DELETE</button>
                 </td>

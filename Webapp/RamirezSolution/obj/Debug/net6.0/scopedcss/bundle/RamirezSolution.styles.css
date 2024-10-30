@@ -131,8 +131,7 @@ body[b-wl5khyncb7] {
 #footer2[b-wl5khyncb7] {
     background: black;
     padding: 3rem;
-    margin-top: 0px;
-    /* padding-top: 5rem; */
+    margin-top: 80px;
     padding-top: 7rem;
     padding-bottom: 80px;
     background-image: url(../images/cards/v748-toon-111.png);
@@ -282,7 +281,7 @@ a[b-wl5khyncb7] {
 }
 /* _content/RamirezSolution/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-0vn2xt2mu5] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: black;
 }
 
 .top-row[b-0vn2xt2mu5] {

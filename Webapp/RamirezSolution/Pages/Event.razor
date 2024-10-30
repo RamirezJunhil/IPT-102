@@ -3,25 +3,58 @@
 <h3>EVENT</h3>
 
 @code {
-
     private string FirstName { get; set; } = string.Empty;
     private string MiddleName { get; set; } = string.Empty;
     private string LastName { get; set; } = string.Empty;
     private string DisplayedName { get; set; } = string.Empty;
+    private string DisplayColor { get; set; } = "background-white";
+    private string LastColor { get; set; } = "background-white";
 
-    private void ShowFirstName() => DisplayedName = FirstName;
-    private void ShowMiddleName() => DisplayedName = MiddleName;
-    private void ShowLastName() => DisplayedName = LastName;
-    private void ShowFullName() => DisplayedName = $"{FirstName} {MiddleName} {LastName}".Trim();
+    private static readonly List<string> colorClasses = new List<string>
+    {
+        "background-red",
+        "background-blue",
+        "background-green",
+        "background-yellow"
+    };
+
+    private void ShowFirstName() => UpdateDisplay(FirstName);
+    private void ShowMiddleName() => UpdateDisplay(MiddleName);
+    private void ShowLastName() => UpdateDisplay(LastName);
+    private void ShowFullName() => UpdateDisplay($"{FirstName} {MiddleName} {LastName}".Trim());
+
+    private void UpdateDisplay(string name)
+    {
+        DisplayedName = name;
+        DisplayColor = GetNewColor();
+        LastColor = DisplayColor;
+    }
+
+    private void ClearDisplay()
+    {
+        DisplayedName = string.Empty;
+        DisplayColor = "background-white";
+    }
+
+    private string GetNewColor()
+    {
+        var random = new Random();
+        string newColor;
+        do
+        {
+            newColor = colorClasses[random.Next(colorClasses.Count)];
+        } while (newColor == LastColor);
+
+        return newColor;
+    }
 }
 
 <h3>SHOW NAMES</h3>
 
-<table class="table table-bordered table-striped" style="width: 50%; margin-top: 20px;">
+<table class="table table-bordered table-striped background-cyan" style="width: 50%; margin-top: 20px;">
     <thead>
         <tr>
             <th style="width: 30%;">PERSONAL IDENTIFIERS</th>
-            <th style="width: 70%;">INPUT</th>
         </tr>
     </thead>
     <tbody>
@@ -45,11 +78,59 @@
     <button class="btn btn-secondary" @onclick="ShowMiddleName">Show Middle Name</button>
     <button class="btn btn-success" @onclick="ShowLastName">Show Last Name</button>
     <button class="btn btn-info" @onclick="ShowFullName">Show Full Name</button>
+    <button class="btn btn-danger" @onclick="ClearDisplay">Clear</button>
 </div>
 
 @if (!string.IsNullOrWhiteSpace(DisplayedName))
 {
-    <div style="margin-top: 20px;">
-        <p><strong>DISPLAYED NAME: </strong>@DisplayedName</p>
-    </div>
+    <table class="table table-bordered table-striped" style="width: 50%; margin-top: 20px;">
+        <thead>
+            <tr>
+                <th style="width: 30%;">DISPLAYED NAME</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="@DisplayColor">
+                <td style="padding: 10px;">
+                    <strong>@DisplayedName</strong>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 }
+
+<style>
+    .background-red {
+        background-color: #ffdddd;
+    }
+
+    .background-blue {
+        background-color: #ddeeff;
+    }
+
+    .background-green {
+        background-color: #ddffdd;
+    }
+
+    .background-yellow {
+        background-color: #ffffdd;
+    }
+
+    .background-white {
+        background-color: #ffffff;
+    }
+
+    /* New cyan background */
+    .background-cyan {
+        background-color: #e0ffff;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
