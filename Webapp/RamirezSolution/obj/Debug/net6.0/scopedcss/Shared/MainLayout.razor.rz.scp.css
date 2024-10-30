@@ -96,10 +96,186 @@ main[b-wl5khyncb7] {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-
-</style >
-/* In your CSS file (e.g., wwwroot/css/app.css) */
 .custom-font[b-wl5khyncb7] {
     font-size: 15px;
     font-family: 'Sant Elia', sans-serif;
+}
+
+*[b-wl5khyncb7] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body[b-wl5khyncb7] {
+    font-size: 14px;
+    background: #fff;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: poppins;
+}
+
+#footer[b-wl5khyncb7] {
+    background: #f7f7f7;
+    padding: 3rem;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+    padding-bottom: 80px;
+    background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+}
+
+#footer2[b-wl5khyncb7] {
+    background: black;
+    padding: 3rem;
+    margin-top: 0px;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+    padding-bottom: 80px;
+    background-image: url(../images/cards/v748-toon-111.png);
+}
+
+.logo-footer[b-wl5khyncb7] {
+    /* max-width: 300px; */
+}
+
+.social-links[b-wl5khyncb7] {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+    .social-links h2[b-wl5khyncb7] {
+        padding-bottom: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .social-links img[b-wl5khyncb7] {
+        padding-bottom: 25px;
+    }
+
+.social-icons[b-wl5khyncb7] {
+    /* display: flex;
+    gap: 3rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #777777;
+}
+
+    .social-icons a[b-wl5khyncb7] {
+        /* font-size: 18px; */
+        /* background: #ffffff; */
+        /* box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 3px;
+  color: #82074a; */
+        /* margin-right: 18px; */
+        color: #777777;
+    }
+
+        .social-icons a:hover[b-wl5khyncb7] {
+            color: #000;
+        }
+
+        .social-icons a i[b-wl5khyncb7] {
+            box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+            padding: 0.4rem 1rem 0.4rem 1rem;
+            border-radius: 3px;
+            color: #82074a;
+            font-size: 16px;
+            margin-right: 12px;
+        }
+
+li[b-wl5khyncb7] {
+    list-style: none;
+}
+
+.useful-link h2[b-wl5khyncb7] {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.useful-link img[b-wl5khyncb7] {
+    padding-bottom: 15px;
+}
+
+.use-links[b-wl5khyncb7] {
+    line-height: 32px;
+}
+
+    .use-links li i[b-wl5khyncb7] {
+        font-size: 14px;
+        padding-right: 8px;
+        color: #898989;
+    }
+
+    .use-links li a[b-wl5khyncb7] {
+        color: #303030;
+        font-size: 15px;
+        font-weight: 500;
+        color: #777777;
+    }
+
+        .use-links li a:hover[b-wl5khyncb7] {
+            color: #000;
+        }
+
+.address h2[b-wl5khyncb7] {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.address img[b-wl5khyncb7] {
+    padding-bottom: 15px;
+}
+
+.address-links li a[b-wl5khyncb7] {
+    color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+    color: #777777;
+}
+
+.address-links li i[b-wl5khyncb7] {
+    font-size: 16px;
+    padding-right: 8px;
+    color: #82074a;
+}
+
+    .address-links li i:nth-child(1)[b-wl5khyncb7] {
+        padding-top: 9px;
+    }
+
+.address-links .address1[b-wl5khyncb7] {
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+}
+
+.address-links[b-wl5khyncb7] {
+    line-height: 32px;
+    color: #777777;
+}
+
+.copy-right-sec[b-wl5khyncb7] {
+    padding: 1.8rem;
+    background: #82074a;
+    color: #fff;
+    text-align: center;
+}
+
+    .copy-right-sec a[b-wl5khyncb7] {
+        color: #fcd462;
+        font-weight: 500;
+    }
+
+a[b-wl5khyncb7] {
+    text-decoration: none;
 }
