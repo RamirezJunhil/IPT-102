@@ -10,7 +10,7 @@
     private string Email { get; set; } = string.Empty;
     private string Address { get; set; } = string.Empty;
     private string ErrorMessage { get; set; } = string.Empty;
-    private List<UserProfile> userProfiles = new List<UserProfile>();
+    private List<UserProfileLibrary.UserProfile> userProfiles = new List<UserProfileLibrary.UserProfile>();
     private bool isEditMode = false;
     private int editID = -1;
 
@@ -40,7 +40,7 @@
         }
         else
         {
-            var newProfile = new UserProfile
+            var newProfile = new UserProfileLibrary.UserProfile
                 {
                     ID = userProfiles.Count > 0 ? userProfiles.Max(p => p.ID) + 1 : 1,
                     Name = Name,
@@ -100,16 +100,6 @@
     private bool IsValidEmail(string email)
     {
         return email.Contains("@") && email.Contains(".") && email.IndexOf('@') < email.LastIndexOf('.');
-    }
-
-    private class UserProfile
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string School { get; set; }
-        public string Email { get; set; }
-        public string Address { get; set; }
     }
 }
 

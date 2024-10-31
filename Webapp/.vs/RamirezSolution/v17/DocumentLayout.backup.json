@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\web\\IPT-102\\Webapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interraction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interraction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interraction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interraction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC9E67AF-A26A-483A-BF8A-0987AABD24FB}|..\\RamirezCompany\\RamirezCompany\\RamirezCompany.sqlproj|C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
@@ -37,11 +53,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherForecastService.cs",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\WeatherForecastService.cs",
+              "RelativeDocumentMoniker": "RamirezSolution\\Data\\WeatherForecastService.cs",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\WeatherForecastService.cs*",
+              "RelativeToolTip": "RamirezSolution\\Data\\WeatherForecastService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:32:14.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
+              "RelativeDocumentMoniker": "RamirezSolution\\Data\\UserProfile.cs",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
+              "RelativeToolTip": "RamirezSolution\\Data\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:31:25.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor.css",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor.css",
+              "RelativeToolTip": "RamirezSolution\\Shared\\MainLayout.razor.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAUwGsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T04:23:58.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "RamirezSolution\\Shared\\NavMenu.razor.css",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\NavMenu.razor.css",
+              "RelativeToolTip": "RamirezSolution\\Shared\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T04:23:56.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor*",
-              "RelativeToolTip": "RamirezSolution\\Shared\\MainLayout.razor*",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RamirezSolution\\Shared\\MainLayout.razor",
               "ViewState": "AgIAADcAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T03:07:11.035Z",
@@ -49,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Shared\\NavMenu.razor",
@@ -57,25 +125,24 @@
               "RelativeToolTip": "RamirezSolution\\Shared\\NavMenu.razor",
               "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T03:05:29.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T03:05:29.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Interraction.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interraction.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Interraction.razor",
               "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interraction.razor",
               "RelativeToolTip": "RamirezSolution\\Pages\\Interraction.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAkwPEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T02:45:43.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Project.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
@@ -87,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Employee_Create.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
