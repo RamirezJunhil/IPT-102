@@ -1,4 +1,4 @@
-﻿@page "/Interaction"
+﻿@page "/interactive"
 
 <h3 class="header-text">CREATE READ UPDATE DELETE METHOD</h3>
 
@@ -9,9 +9,7 @@
     private string School { get; set; } = string.Empty;
     private string Email { get; set; } = string.Empty;
     private string Address { get; set; } = string.Empty;
-
     private string ErrorMessage { get; set; } = string.Empty;
-
     private List<UserProfile> userProfiles = new List<UserProfile>();
     private bool isEditMode = false;
     private int editID = -1;
@@ -53,7 +51,6 @@
                 };
             userProfiles.Add(newProfile);
         }
-
         ClearFormFields();
         ErrorMessage = string.Empty;
     }
@@ -188,6 +185,13 @@
         text-align: center;
         margin-top: 15px;
     }
+
+    /* Centering the button */
+    .center-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 </style>
 
 <div class="form-container">
@@ -221,11 +225,13 @@
     }
     <div class="button-container">
         <button class="btn btn-primary" @onclick="SaveProfile">@(isEditMode ? "UPDATE" : "CREATE")</button>
-        <button class="btn btn-secondary" @onclick="ClearForm">Clear</button>
     </div>
 </div>
 
 <h3 class="header-text">PROFILES</h3>
+<div class="center-button">
+    <button class="btn btn-secondary" @onclick="ClearForm">CLEAR ALL DATA</button>
+</div>
 <table class="custom-table">
     <thead>
         <tr>

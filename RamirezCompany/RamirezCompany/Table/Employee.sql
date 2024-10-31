@@ -4,7 +4,7 @@
 	Minit CHAR,
 	Lname VARCHAR(15) NOT NULL,
 	Ssn CHAR(9) NOT NULL,
-	Bdate DATE,
+	Bdate VARCHAR(15),
 	Address VARCHAR(30),
 	Sex CHAR,
 	Salary DECIMAL(10,2),

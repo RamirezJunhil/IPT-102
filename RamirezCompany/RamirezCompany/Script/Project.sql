@@ -20,7 +20,7 @@ GO
 
 INSERT INTO PROJECT (Pname, Pnumber, Plocation, Dnum)
 VALUES 
-(N'PASTELAN', 18, N'ALAMADA', 17);  
+(N'DJ', 18, N'ALAMADA', 17);  
 GO
 
 SELECT * FROM PROJECT;

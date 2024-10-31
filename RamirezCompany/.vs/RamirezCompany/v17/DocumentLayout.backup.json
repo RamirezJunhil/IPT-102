@@ -1,15 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\web\\RamirezCompany\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RamirezCompany||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D3F653B-BB75-43AB-9424-136DF5AAFE08}|RamirezCompany\\RamirezCompany.sqlproj|C:\\web\\RamirezCompany\\RamirezCompany\\RamirezCompany.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|008b9af8-091d-4ba5-95e1-5f3479df8fcc",
-      "RelativeMoniker": "D:0:0:{9D3F653B-BB75-43AB-9424-136DF5AAFE08}|RamirezCompany\\RamirezCompany.sqlproj|solutionrelative:RamirezCompany\\RamirezCompany.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|008b9af8-091d-4ba5-95e1-5f3479df8fcc"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\web\\IPT-102\\RamirezCompany\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -17,27 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RamirezCompany",
-              "DocumentMoniker": "C:\\web\\RamirezCompany\\RamirezCompany\\RamirezCompany.sqlproj",
-              "RelativeDocumentMoniker": "RamirezCompany\\RamirezCompany.sqlproj",
-              "ToolTip": "C:\\web\\RamirezCompany\\RamirezCompany\\RamirezCompany.sqlproj",
-              "RelativeToolTip": "RamirezCompany\\RamirezCompany.sqlproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-29T06:13:50Z",
-              "EditorCaption": ""
             }
           ]
         }

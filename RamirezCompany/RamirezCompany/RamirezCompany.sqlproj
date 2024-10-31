@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{cc9e67af-a26a-483a-bf8a-0987aabd24fb}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Table" />
     <Folder Include="Script" />
+    <Folder Include="Stored_Procedured" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Employee.sql" />
@@ -66,6 +67,10 @@
     <Build Include="Table\Dept_Location.sql" />
     <Build Include="Table\Project.sql" />
     <Build Include="Table\Works_on.sql" />
+    <Build Include="Stored_Procedured\Employee_Create.sql" />
+    <Build Include="Stored_Procedured\Employee_Read.sql" />
+    <Build Include="Stored_Procedured\Employee_Update.sql" />
+    <Build Include="Stored_Procedured\Employee_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Script\Employee.sql" />
