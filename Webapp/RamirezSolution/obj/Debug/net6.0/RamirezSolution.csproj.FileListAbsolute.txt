@@ -30,3 +30,12 @@ C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\refint\RamirezSolution.dl
 C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\RamirezSolution.pdb
 C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\RamirezSolution.genruntimeconfig.cache
 C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\ref\RamirezSolution.dll
+C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\RamirezSolution.csproj.AssemblyReference.cache
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\libman.json
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\MailKit.dll
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\MimeKit.dll
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\web\IPT-102\Webapp\RamirezSolution\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\web\IPT-102\Webapp\RamirezSolution\obj\Debug\net6.0\RamirezS.45AED40E.Up2Date

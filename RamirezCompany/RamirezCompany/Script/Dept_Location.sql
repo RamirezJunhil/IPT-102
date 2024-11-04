@@ -1,13 +1,12 @@
-﻿USE  RamirezCompany
+﻿USE RamirezCompany;
 GO
 
 DROP TABLE IF EXISTS dbo.DEPT_LOCATIONS;
 GO
 
-CREATE TABLE dbo.DEPT_LOCATIONS
-(
-    [Dnumber]   INT         NOT NULL,
-    [Dlocation] VARCHAR(15) NOT NULL,
+CREATE TABLE dbo.DEPT_LOCATIONS (
+    Dnumber INT NOT NULL,
+    Dlocation VARCHAR(15) NOT NULL,
     CONSTRAINT PK_DEPT_LOCATIONS PRIMARY KEY (Dnumber, Dlocation)
 );
 GO
@@ -16,22 +15,22 @@ CREATE NONCLUSTERED INDEX IX_DEPT_LOCATIONS_Dnumber ON dbo.DEPT_LOCATIONS ([Dnum
 GO
 
 INSERT INTO DEPT_LOCATIONS (Dnumber, Dlocation)
-VALUES 
-(21, '123'); 
+VALUES (21, '123');
 GO
 
 SELECT * FROM DEPT_LOCATIONS;
 GO
 
 UPDATE dbo.DEPT_LOCATIONS
-SET Dlocation = 'NewLocation' 
+SET Dlocation = 'NewLocation'
 WHERE Dnumber = 21;
 GO
 
 SELECT * FROM DEPT_LOCATIONS;
 GO
 
-DELETE FROM dbo.DEPT_LOCATIONS WHERE Dnumber = 21 AND Dlocation = 'NewLocation';
+DELETE FROM dbo.DEPT_LOCATIONS
+WHERE Dnumber = 21 AND Dlocation = 'NewLocation';
 GO
 
 SELECT * FROM DEPT_LOCATIONS;

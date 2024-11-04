@@ -3,50 +3,14 @@
 <h3>EVENT</h3>
 
 @code {
-    private string FirstName { get; set; } = string.Empty;
-    private string MiddleName { get; set; } = string.Empty;
-    private string LastName { get; set; } = string.Empty;
-    private string DisplayedName { get; set; } = string.Empty;
-    private string DisplayColor { get; set; } = "background-white";
-    private string LastColor { get; set; } = "background-white";
+    private EventLibrary.EventModel Model { get; set; } = new EventLibrary.EventModel();
+    private EventLibrary.EventLogic Logic { get; set; } = new EventLibrary.EventLogic();
 
-    private static readonly List<string> colorClasses = new List<string>
-    {
-        "background-red",
-        "background-blue",
-        "background-green",
-        "background-yellow"
-    };
-
-    private void ShowFirstName() => UpdateDisplay(FirstName);
-    private void ShowMiddleName() => UpdateDisplay(MiddleName);
-    private void ShowLastName() => UpdateDisplay(LastName);
-    private void ShowFullName() => UpdateDisplay($"{FirstName} {MiddleName} {LastName}".Trim());
-
-    private void UpdateDisplay(string name)
-    {
-        DisplayedName = name;
-        DisplayColor = GetNewColor();
-        LastColor = DisplayColor;
-    }
-
-    private void ClearDisplay()
-    {
-        DisplayedName = string.Empty;
-        DisplayColor = "background-white";
-    }
-
-    private string GetNewColor()
-    {
-        var random = new Random();
-        string newColor;
-        do
-        {
-            newColor = colorClasses[random.Next(colorClasses.Count)];
-        } while (newColor == LastColor);
-
-        return newColor;
-    }
+    private void ShowFirstName() => Logic.ShowFirstName(Model);
+    private void ShowMiddleName() => Logic.ShowMiddleName(Model);
+    private void ShowLastName() => Logic.ShowLastName(Model);
+    private void ShowFullName() => Logic.ShowFullName(Model);
+    private void ClearDisplay() => Logic.ClearDisplay(Model);
 }
 
 <h3>SHOW NAMES</h3>
@@ -60,15 +24,15 @@
     <tbody>
         <tr>
             <td>First Name</td>
-            <td><input type="text" class="form-control" @bind="FirstName" /></td>
+            <td><input type="text" class="form-control" @bind="Model.FirstName" /></td>
         </tr>
         <tr>
             <td>Middle Name</td>
-            <td><input type="text" class="form-control" @bind="MiddleName" /></td>
+            <td><input type="text" class="form-control" @bind="Model.MiddleName" /></td>
         </tr>
         <tr>
             <td>Last Name</td>
-            <td><input type="text" class="form-control" @bind="LastName" /></td>
+            <td><input type="text" class="form-control" @bind="Model.LastName" /></td>
         </tr>
     </tbody>
 </table>
@@ -81,7 +45,7 @@
     <button class="btn btn-danger" @onclick="ClearDisplay">Clear</button>
 </div>
 
-@if (!string.IsNullOrWhiteSpace(DisplayedName))
+@if (!string.IsNullOrWhiteSpace(Model.DisplayedName))
 {
     <table class="table table-bordered table-striped" style="width: 50%; margin-top: 20px;">
         <thead>
@@ -90,9 +54,9 @@
             </tr>
         </thead>
         <tbody>
-            <tr class="@DisplayColor">
+            <tr class="@Model.DisplayColor">
                 <td style="padding: 10px;">
-                    <strong>@DisplayedName</strong>
+                    <strong>@Model.DisplayedName</strong>
                 </td>
             </tr>
         </tbody>
@@ -120,7 +84,6 @@
         background-color: #ffffff;
     }
 
-    /* New cyan background */
     .background-cyan {
         background-color: #e0ffff;
     }
@@ -130,7 +93,13 @@
     }
 
     h3 {
-        text-align: center;
-        margin-bottom: 20px;
+        font-size: 500%;
+        font-style: initial;
+        color: black;
+        background-color: white;
+        text-align: center; 
+        margin: 0 auto; 
+        width: fit-content;
     }
+
 </style>

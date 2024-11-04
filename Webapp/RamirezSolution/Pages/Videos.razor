@@ -3,76 +3,64 @@
 <h3>MY VIDEOS</h3>
 
 <div class="video-container">
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/eMjyvIQbn9M?si=p4dcv6-Bj39MuA7T"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-    </iframe>
+    <h4>Video 1: A Journey to Innovation</h4>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/eMjyvIQbn9M?si=p4dcv6-Bj39MuA7T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <h3></h3>
 
 <div class="video-container">
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/gunZRs8g6q8?si=FJArl78yOufsVJiM"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-    </iframe>
+    <h4>Video 2: The Future of Tech</h4>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/gunZRs8g6q8?si=FJArl78yOufsVJiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <h3></h3>
 
 <div class="video-container">
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/ml5uvpfXcLU?si=qqPhAk-hkn8QIav9"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-    </iframe>
+    <h4>Video 3: Embracing Change</h4>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/ml5uvpfXcLU?si=qqPhAk-hkn8QIav9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <h3></h3>
 
 <div class="video-container">
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/Pok0Jg2JAkE?si=GLW8HRVK9mlqCI1F"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-    </iframe>
+    <h4>Video 4: Technology and Us</h4>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/Pok0Jg2JAkE?si=GLW8HRVK9mlqCI1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <h3></h3>
 
 <div class="video-container">
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/PVUREUDKKns?si=S4fTq-jwa8B9SqoH"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-    </iframe>
+    <h4>Video 5: Innovating for the Future</h4>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/PVUREUDKKns?si=S4fTq-jwa8B9SqoH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <style>
-    body {
-        background-image: url("https://images.pexels.com/photos/949129/pexels-photo-949129.jpeg?auto=compress&cs=tinysrgb&w=600");
-        font-family: Arial, sans-serif;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+
     .video-container {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
     }
+
     h3 {
         font-size: 500%;
         font-style: initial;
-        color: white;
+        color: black;
+        background-color: white;
+        text-align: center; /* Centers the text within its container */
+        margin: 0 auto; /* Centers the element itself if it has a width */
+        width: fit-content; /* Optional: adjusts width to fit the content, so it centers within a parent container */
+    }
+
+    h4 {
+        font-size: 100%;
+        font-style: initial;
+        color: black;
+        background-color: white;
+        text-align: center; /* Centers the text within its container */
+        margin: 0 auto; /* Centers the element itself if it has a width */
+        width: fit-content;
     }
 </style>

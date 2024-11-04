@@ -12,8 +12,7 @@
         <article class="content px-4">
             @Body
         </article>
-        <!-- Background YouTube video for music -->
-        <iframe id="backgroundVideo" width="0" height="0" src="https://www.youtube.com/embed/eBCgU2W4l9U?autoplay=1&loop=1&playlist=eBCgU2W4l9U&mute=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <!-- Background YouTube video for music - removed -->
     </main>
 </div>
 <footer id="footer">
@@ -54,31 +53,3 @@
         </div>
     </div>
 </footer>
-
-<style>
-    .bottom-right {
-        position: fixed;
-        bottom: 10px;
-        right: 10px;
-        z-index: 1000;
-    }
-</style>
-
-<div class="bottom-right">
-    <button id="muteButton" onclick="toggleMute()">Mute</button>
-</div>
-
-<script>
-    var videoElement = document.getElementById('backgroundVideo');
-    var muteButton = document.getElementById('muteButton');
-
-    function toggleMute() {
-        if (videoElement.src.includes('mute=0')) {
-            videoElement.src = videoElement.src.replace('mute=0', 'mute=1');
-            muteButton.innerText = "Unmute";
-        } else {
-            videoElement.src = videoElement.src.replace('mute=1', 'mute=0');
-            muteButton.innerText = "Mute";
-        }
-    }
-</script>

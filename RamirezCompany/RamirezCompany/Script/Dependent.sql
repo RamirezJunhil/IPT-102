@@ -1,46 +1,14 @@
-﻿USE RamirezCompany
-Go
+﻿USE RamirezCompany;
+GO
 
-Insert into dbo.DEPENDENT
+INSERT INTO dbo.DEPENDENT (Essn, Dependent_name, Sex, Bdate, Relationship)
+VALUES
+('111', 'DJ', 'M', '2003-03-01', 'SINGLE'),
+('122', 'MARK', 'M', '2002-05-01', 'MARRIED'),
+('123', 'BRYAN', 'M', '2003-02-01', 'DIVORCED'),
+('124', 'JOSHUA', 'M', '2004-03-01', 'SINGLE'),
+('125', 'BRYLE', 'M', '2005-01-01', 'SEPARATED');
 
-(
-Essn,
-Dependent_name,
-Sex,
-Bdate,
-Relationship
-)
+SELECT * FROM dbo.DEPENDENT;
 
-Values
-
-(
-'111','DJ','M','2003-07-01','PLAYER'
-
-),
-
-(
-'122','DJ','M','2003-07-01','PLAYER'
-
-),
-
-(
-'123','DJ','M','2003-07-01','PLAYER'
-),
-
-(
-'124','DJ','M','2003-07-01','PLAYER'
-),
-
-(
-'125','DJ','M','2003-07-01','PLAYER'
-)
-
-Select * from dbo.DEPENDENT
-
-Delete dbo.DEPENDENT
-
-
-
-
-
-
+DELETE FROM dbo.DEPENDENT;

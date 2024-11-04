@@ -1,53 +1,21 @@
-﻿USE RamirezCompany
-Go
+﻿USE RamirezCompany;
+GO
 
-Insert into DEPARTMENT
+CREATE TABLE DEPARTMENT (
+    Dname VARCHAR(50),
+    Dnumber INT,
+    Mgr_ssn CHAR(9),
+    Mgr_start_date DATE
+);
+GO
 
-(
-Dname,
-Dnumber,
-Mgr_ssn,
-Mgr_start_date
-)
+INSERT INTO DEPARTMENT (Dname, Dnumber, Mgr_ssn, Mgr_start_date)
+VALUES
+('CounterFlow', 1, '141', '2021-06-16'),
+('CounterFlow', 2, '142', '2021-06-16'),
+('CounterFlow', 3, '143', '2021-06-16'),
+('CounterFlow', 4, '143', '2021-06-16');
 
-Values
+SELECT * FROM dbo.DEPARTMENT;
 
-(
-'CounterFlow',
-'1',
-'141',
-'2021-16-06'
-
-),
-(
-'CounterFlow',
-'2',
-'142',
-'2021-16-06'
-
-),
-
-(
-'CounterFlow',
-'3',
-'143',
-'2021-16-06'
-
-),
-(
-'CounterFlow',
-'4',
-'143',
-'2021-16-06'
-)
-
-
-
-Select * from dbo.DEPARTMENT
-
-
-
-Delete  from dbo.DEPARTMENT
-
-
-
+DELETE FROM dbo.DEPARTMENT;
