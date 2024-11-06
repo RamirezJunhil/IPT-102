@@ -9,6 +9,7 @@
 @Salary DECIMAL(10,2),
 @Super_ssn  CHAR(9),
 @Dno INT
+
 AS
 BEGIN
 Update EMPLOYEE
