@@ -49,14 +49,14 @@
 
 @if (!string.IsNullOrWhiteSpace(Model.DisplayedName))
 {
-    <table class="table table-bordered table-striped" style="width: 50%; margin-top: 20px;">
+    <table class="table table-bordered table-striped background-white" style="width: 50%; margin-top: 20px;">
         <thead>
             <tr>
                 <th style="width: 30%;">DISPLAYED NAME</th>
             </tr>
         </thead>
         <tbody>
-            <tr class="@Model.DisplayColor">
+            <tr class="background-white">
                 <td style="padding: 10px;">
                     <strong>@Model.DisplayedName</strong>
                 </td>
@@ -99,9 +99,8 @@
         font-style: initial;
         color: black;
         background-color: white;
-        text-align: center; 
-        margin: 0 auto; 
+        text-align: center;
+        margin: 0 auto;
         width: fit-content;
     }
-
 </style>
