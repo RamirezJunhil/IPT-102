@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\web\\IPT-102\\Webapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -100,10 +104,6 @@
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\wwwroot\\css\\open-iconic\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\wwwroot\\css\\open-iconic\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -123,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -131,32 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Interactive.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
-              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Interactive.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
-              "RelativeToolTip": "RamirezSolution\\Pages\\Interactive.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T05:25:23.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
-              "RelativeDocumentMoniker": "RamirezSolution\\libman.json",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
-              "RelativeToolTip": "RamirezSolution\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T09:10:30.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EventLogic.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\EventLogic.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\EventLogic.cs",
@@ -168,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Profile.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Profile.razor",
@@ -180,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Event.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Event.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Event.razor",
@@ -192,15 +167,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\UserProfile.cs",
               "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
               "RelativeToolTip": "RamirezSolution\\Data\\UserProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T05:37:25.099Z"
+              "WhenOpened": "2024-11-06T05:37:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RamirezSolution\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T08:26:49.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interactive.razor",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
+              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Interactive.razor",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
+              "RelativeToolTip": "RamirezSolution\\Pages\\Interactive.razor",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAwwAoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T05:25:23.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
+              "RelativeDocumentMoniker": "RamirezSolution\\libman.json",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
+              "RelativeToolTip": "RamirezSolution\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T09:10:30.889Z"
             },
             {
               "$type": "Document",
@@ -216,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Videos.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Videos.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Videos.razor",
@@ -228,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Music.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Music.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Music.razor",
@@ -240,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Project.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
@@ -252,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Error.cshtml",
@@ -264,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EventModel.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\EventModel.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\EventModel.cs",
@@ -276,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Employee_Create.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
@@ -287,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ContactModel.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\ContactModel.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\ContactModel.cs",
@@ -299,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ContactLogic.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\ContactLogic.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\ContactLogic.cs",
@@ -311,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Employee_Read.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql",
@@ -322,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Employee_Update.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql",
@@ -333,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Department.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Department.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Department.sql",
@@ -345,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Dept_Location.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
@@ -357,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Dependent.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dependent.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Dependent.sql",
@@ -369,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Program.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Program.cs",
@@ -381,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Index.razor",
@@ -393,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Contactus.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Contactus.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Contactus.razor",
@@ -405,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Shared\\NavMenu.razor",
@@ -417,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\_Layout.cshtml",
@@ -429,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "open-iconic-bootstrap.min.css",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
               "RelativeDocumentMoniker": "RamirezSolution\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -441,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor.css",
@@ -450,18 +464,6 @@
               "ViewState": "AgIAAHcAAAAAAAAAAAAuwHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-01T09:02:09.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
-              "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
-              "RelativeToolTip": "RamirezSolution\\Shared\\MainLayout.razor",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAADEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T08:26:49.193Z"
             },
             {
               "$type": "Document",

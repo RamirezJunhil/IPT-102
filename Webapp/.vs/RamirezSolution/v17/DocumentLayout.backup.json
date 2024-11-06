@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\web\\IPT-102\\Webapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -123,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -131,28 +131,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Interactive.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Interactive.razor",
               "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
               "RelativeToolTip": "RamirezSolution\\Pages\\Interactive.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAwwAoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-06T05:25:23.687Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
-              "RelativeDocumentMoniker": "RamirezSolution\\libman.json",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
-              "RelativeToolTip": "RamirezSolution\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T09:10:30.889Z"
             },
             {
               "$type": "Document",
@@ -180,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Event.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Event.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Event.razor",
@@ -192,15 +180,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\UserProfile.cs",
               "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
               "RelativeToolTip": "RamirezSolution\\Data\\UserProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T05:37:25.099Z"
+              "WhenOpened": "2024-11-06T05:37:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
+              "RelativeDocumentMoniker": "RamirezSolution\\libman.json",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\libman.json",
+              "RelativeToolTip": "RamirezSolution\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T09:10:30.889Z"
             },
             {
               "$type": "Document",
