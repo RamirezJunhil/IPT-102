@@ -1,4 +1,4 @@
-﻿namespace ContactLibrary
+﻿namespace RamirezSolution.Data.Model
 {
     public class ContactLogic
     {

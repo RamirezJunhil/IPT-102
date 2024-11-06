@@ -1,10 +1,12 @@
 ﻿@page "/Event"
+@using RamirezSolution.Data.Classlibrary
+@using RamirezSolution.Data.Model
 
 <h3>EVENT</h3>
 
 @code {
-    private EventLibrary.EventModel Model { get; set; } = new EventLibrary.EventModel();
-    private EventLibrary.EventLogic Logic { get; set; } = new EventLibrary.EventLogic();
+    private EventModel Model { get; set; } = new EventModel();
+    private EventLogic Logic { get; set; } = new EventLogic();
 
     private void ShowFirstName() => Logic.ShowFirstName(Model);
     private void ShowMiddleName() => Logic.ShowMiddleName(Model);

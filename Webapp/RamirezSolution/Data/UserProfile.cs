@@ -1,4 +1,4 @@
-﻿namespace UserProfileLibrary
+﻿namespace RamirezSolution.Data.Classlibrary
 {
     public class UserProfile
     {

@@ -1,4 +1,5 @@
-﻿namespace EventLibrary
+﻿using RamirezSolution.Data.Classlibrary;
+namespace RamirezSolution.Data.Model
 {
     public class EventLogic
     {

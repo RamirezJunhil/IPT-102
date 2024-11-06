@@ -1,4 +1,4 @@
-﻿namespace EventLibrary
+﻿namespace RamirezSolution.Data.Classlibrary
 {
     public class EventModel
     {
