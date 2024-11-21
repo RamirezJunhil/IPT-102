@@ -12,7 +12,7 @@ USE Baseball;
 GO
 
 -- Drop Table if it Exists
-IF OBJECT_ID(N'dbo.BaseballGame', N'U') IS NOT NULL
+IF OBJECT_ID('dbo.BaseballGame') IS NOT NULL
 BEGIN
     DROP TABLE dbo.BaseballGame;
 END
