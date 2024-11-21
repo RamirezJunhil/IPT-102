@@ -1,13 +1,14 @@
 ﻿USE [master];
 GO
 
-IF EXISTS (SELECT * FROM sys.databases WHERE name = 'BaseballGameDb')
-
--- Create Database using default file locations
-CREATE DATABASE BaseballGameDb;
+-- Create Database if it doesn't exist
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'Baseball')
+BEGIN
+    CREATE DATABASE Baseball;
+END
 GO
 
-USE BaseballGame;
+USE Baseball;
 GO
 
 -- Drop Table if it Exists
@@ -26,9 +27,11 @@ CREATE TABLE dbo.BaseballGame
 
     CONSTRAINT PK_BaseballGame_GameID PRIMARY KEY CLUSTERED (GameID)  -- Primary Key Constraint
 );
+GO
+
 -- Create a unique non-clustered index on the TeamName field
-CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame ([TeamName]Asc)
-WHERE TeamNAme is not null;
+CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame (TeamName ASC)
+WHERE TeamName IS NOT NULL;
 GO
 
 SELECT Column_Name, Data_Type 
@@ -36,14 +39,13 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE Table_Name = 'BaseballGame'; 
 GO
 
-
 -- Insert records into the BaseballGame table
 BEGIN
     INSERT INTO dbo.BaseballGame (GameID, TeamName, GameDate)
     VALUES
         ('1', 'CCIS', '2024-11-21'),
         ('2', 'CBA', '2024-11-21'),
-        ('3', 'CTE', '2024-11-21')
+        ('3', 'CTE', '2024-11-21');
 END
 GO
 
@@ -51,20 +53,24 @@ GO
 SELECT * FROM dbo.BaseballGame;
 GO
 
-UPDATE Dbo.BaseballGame
+-- Update the GameDate for a specific record
+UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-22'
+WHERE GameID = '1';  -- Only update GameID '1'
 GO
 
-SELECT * FROM Dbo.BaseballGame
-WHERE GameID = '1'
+-- Check the updated row
+SELECT * FROM dbo.BaseballGame
+WHERE GameID = '1';
 GO
 
 -- Delete the record from the BaseballGame table where GameID is '3'
 DELETE FROM dbo.BaseballGame
-WHERE GameID = '3'
+WHERE GameID = '3';
 GO
-SELECT * FROM dbo.BaseballGame
+SELECT * FROM dbo.BaseballGame;
 
-TRUNCATE TABLE dbo.BaseballGame
-SELECT * FROM dbo.BaseballGame
-
+-- Truncate Table and show empty results
+TRUNCATE TABLE dbo.BaseballGame;
+SELECT * FROM dbo.BaseballGame;
+GO
