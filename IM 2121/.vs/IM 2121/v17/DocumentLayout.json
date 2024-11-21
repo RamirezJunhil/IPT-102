@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\",
+  "WorkspaceRootPath": "C:\\web\\IPT-102\\IM 2121\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
       "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BaseballGame.sql ",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
+              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
               "RelativeDocumentMoniker": "IM 2121\\Dbo\\Script\\BaseballGame.sql",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\sir MJ IAS\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
+              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
               "RelativeToolTip": "IM 2121\\Dbo\\Script\\BaseballGame.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-21T01:55:49.451Z",

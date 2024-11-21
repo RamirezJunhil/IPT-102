@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="IM_2121.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\ADMIN\DOCUMENTS\HCI 101\IM 2121\IM 2121\OBJ\DEBUG\IM_2121.DLL" />
+			<Metadata Name="FileName" Value="C:\WEB\IPT-102\IM 2121\IM 2121\OBJ\DEBUG\IM_2121.DLL" />
 			<Metadata Name="AssemblyName" Value="IM_2121" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Admin\Documents\HCI 101\IM 2121\IM 2121\obj\Debug\IM_2121.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\web\IPT-102\IM 2121\IM 2121\obj\Debug\IM_2121.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
