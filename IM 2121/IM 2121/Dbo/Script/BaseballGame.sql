@@ -1,15 +1,10 @@
 ﻿USE [master];
 GO
 
--- Drop the existing database if it exists to avoid conflicts
 IF EXISTS (SELECT * FROM sys.databases WHERE name = 'BaseballGameDb')
-BEGIN
-    DROP DATABASE BaseballGameDb;
-END
-GO
 
 -- Create Database using default file locations
-CREATE DATABASE BaseballGame;
+CREATE DATABASE BaseballGameDb;
 GO
 
 USE BaseballGame;
