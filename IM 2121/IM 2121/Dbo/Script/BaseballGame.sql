@@ -21,7 +21,7 @@ GO
 -- Create Table with Constraints
 CREATE TABLE dbo.BaseballGame
 (
-    GameID NVARCHAR(10) NOT NULL,  -- Primary Key Constraint
+    GameID INT NOT NULL,  -- Primary Key Constraint
     TeamName NVARCHAR(15) NOT NULL,  -- Not Null Constraint
     GameDate DATE NOT NULL,  -- Not Null Constraint
 
