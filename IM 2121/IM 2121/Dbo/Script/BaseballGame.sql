@@ -55,7 +55,7 @@ GO
 
 -- Update the GameDate for a specific record
 UPDATE dbo.BaseballGame
-SET GameDate = '2024-11-22'
+SET GameDate = '2024-11-25'
 WHERE GameID = '1';  -- Only update GameID '1'
 GO
 
