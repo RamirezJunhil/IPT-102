@@ -43,9 +43,9 @@ GO
 BEGIN
     INSERT INTO dbo.BaseballGame (GameID, TeamName, GameDate)
     VALUES
-        ('1', 'CCIS', '2024-11-21'),
-        ('2', 'CBA', '2024-11-21'),
-        ('3', 'CTE', '2024-11-21');
+        ('1', 'SCC', '2024-11-21'),
+        ('2', 'NDMC', '2024-11-21'),
+        ('3', 'USM', '2024-11-21');
 END
 GO
 
