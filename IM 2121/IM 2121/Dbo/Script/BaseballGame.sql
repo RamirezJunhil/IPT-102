@@ -12,7 +12,7 @@ USE Baseball;
 GO
 
 -- Drop Table if it Exists to avoid conflict
-IF OBJECT_ID('dbo.BaseballGame') IS NOT NULL
+IF OBJECT_ID('dbo.BaseballGame', 'U') IS NOT NULL
 BEGIN
     DROP TABLE dbo.BaseballGame;
 END
@@ -28,7 +28,6 @@ CREATE TABLE dbo.BaseballGame
     CONSTRAINT PK_BaseballGame_GameID PRIMARY KEY CLUSTERED (GameID)  -- Primary Key Constraint
 );
 GO
-
 -- Create a unique non-clustered index on the TeamName field
 CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame ([TeamName] ASC)
 WHERE TeamName IS NOT NULL;
@@ -39,13 +38,13 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE Table_Name = 'BaseballGame'; 
 GO
 
--- Insert records into the BaseballGame table
+---- Insert records into the BaseballGame table
 BEGIN
     INSERT INTO dbo.BaseballGame (GameID, TeamName, GameDate)
     VALUES
-        ('1', 'SCC', '2024-10-21'),
-        ('2', 'NDMC', '2024-10-21'),
-        ('3', 'USM', '2024-10-21');
+        (1, 'SCC', '2024-10-21'),  -- Use integers for GameID
+        (2, 'NDMC', '2024-10-21'),
+        (3, 'USM', '2024-10-21');
 END
 GO
 
@@ -56,16 +55,19 @@ GO
 -- Update the GameDate for a specific record
 UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-25'
-WHERE GameID = '1';  -- Only update GameID '1'
+WHERE GameID = 1;  -- Only update GameID '1' (use integer value)
 GO
-SELECT * FROM dbo.BaseballGame
-
+SELECT * FROM dbo.BaseballGame;
 
 -- Delete the record from the BaseballGame table where GameID is '3'
 DELETE FROM dbo.BaseballGame
-WHERE GameID = '3';
+WHERE GameID = 3;-- Use integer value
+UPDATE dbo.BaseballGame
+SET GameDate = '2024-11-25'
+WHERE GameID = 2;
 GO
 SELECT * FROM dbo.BaseballGame;
+
 
 -- Truncate Table and show empty results
 TRUNCATE TABLE dbo.BaseballGame;
