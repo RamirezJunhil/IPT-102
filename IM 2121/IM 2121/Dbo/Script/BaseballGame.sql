@@ -43,9 +43,15 @@ GO
 BEGIN
     INSERT INTO dbo.BaseballGame (GameID, TeamName, GameDate)
     VALUES
+<<<<<<< HEAD
         ('1', 'SCC', '2024-10-21'),
         ('2', 'NDMC', '2024-10-21'),
         ('3', 'USM', '2024-10-21');
+=======
+        ('1', 'SCC', '2024-11-21'),
+        ('2', 'NDMC', '2024-11-21'),
+        ('3', 'USM', '2024-11-21');
+>>>>>>> 5aec8ea35bb27be40211d6e77aa468e5265943a9
 END
 GO
 
