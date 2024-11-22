@@ -26,11 +26,9 @@ CREATE TABLE dbo.BaseballGame
     GameDate DATE NOT NULL,  -- Not Null Constraint
 
     CONSTRAINT PK_BaseballGame_GameID PRIMARY KEY CLUSTERED (GameID)  -- Primary Key Constraint
-);
-GO
+)
 -- Create a unique non-clustered index on the TeamName field
 CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame ([TeamName] ASC)
-WHERE TeamName IS NOT NULL;
 GO
 
 SELECT Column_Name, Data_Type 
