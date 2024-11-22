@@ -1,0 +1,173 @@
+﻿@page "/Student-Page"
+
+@* Input fields for adding new student *@
+<div class="form-group">
+    <label class="form-label">ID</label>
+    <input class="form-control" @bind="inputBase.ID" />
+</div>
+
+<div class="form-group">
+    <label class="form-label">Name</label>
+    <input class="form-control" @bind="inputBase.Name" />
+</div>
+
+@* Buttons for adding and creating new entries *@
+<div class="form-group">
+    @if (showAddButton)
+    {
+        <button class="btn btn-primary" @onclick="AddStudent">Add</button>
+    }
+    @if (showNewButton)
+    {
+        <button class="btn btn-secondary" @onclick="NewStudent">New</button>
+    }
+</div>
+
+@* Search field *@
+<div class="form-group mt-3">
+    <label class="form-label">Search by ID or Name</label>
+    <input class="form-control" @bind="searchTerm" />
+    <button class="btn btn-success mt-2" @onclick="SearchStudent">Search</button>
+</div>
+
+@* Table to display student list with actions *@
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in displayedStudents)
+        {
+            <tr>
+                <td>@student.ID</td>
+                <td>
+                    @if (editingStudent != null && editingStudent.ID == student.ID)
+                    {
+                        <input class="form-control" @bind="editingStudent.Name" />
+                    }
+                    else
+                    {
+                        @student.Name
+                    }
+                </td>
+                <td>
+                    @if (editingStudent != null && editingStudent.ID == student.ID)
+                    {
+                        <button class="btn btn-primary btn-sm" @onclick="SaveEdit">Change</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-info btn-sm" @onclick="() => StartEdit(student)">Edit</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteStudent(student.ID)">Delete</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private StudentModel inputBase = new StudentModel();
+    private List<StudentModel> displayedStudents = new List<StudentModel>();
+    private StudentModel editingStudent;
+    private string searchTerm;
+    private bool showAddButton = true; // Initially show the Add button
+    private bool showNewButton = false; // Initially hide the New button
+
+    private StudentService studentService = new StudentService();
+
+    protected override void OnInitialized()
+    {
+        // Initialize the displayed students list to be empty
+        displayedStudents = studentService.GetAllStudents();
+    }
+
+    // Adds a new student to the list
+    private void AddStudent()
+    {
+        studentService.AddStudent(new StudentModel { ID = inputBase.ID, Name = inputBase.Name });
+        UpdateDisplayedStudents();
+        ClearInputFields();
+        showAddButton = false; // Hide the Add button after adding a student
+        showNewButton = true; // Show the New button after adding a student
+    }
+
+    // Prepares the component for new student entry
+    private void NewStudent()
+    {
+        inputBase = new StudentModel();
+        showAddButton = true; // Show the Add button when New is clicked
+        showNewButton = false; // Hide the New button when New is clicked
+    }
+
+    // Starts the edit process for a selected student
+    private void StartEdit(StudentModel student)
+    {
+        editingStudent = new StudentModel { ID = student.ID, Name = student.Name };
+    }
+
+    // Saves the edited student details
+    private void SaveEdit()
+    {
+        studentService.EditStudent(editingStudent);
+        editingStudent = null;
+        UpdateDisplayedStudents();
+    }
+
+    // Deletes a student from the list by ID
+    private void DeleteStudent(string id)
+    {
+        studentService.DeleteStudent(id);
+        UpdateDisplayedStudents();
+    }
+
+    // Searches for students by the given search term
+    private void SearchStudent()
+    {
+        displayedStudents = studentService.SearchStudents(searchTerm);
+    }
+
+    // Updates the list of displayed students
+    private void UpdateDisplayedStudents()
+    {
+        displayedStudents = studentService.GetAllStudents();
+    }
+
+    // Clears the input fields
+    private void ClearInputFields()
+    {
+        inputBase.ID = string.Empty;
+        inputBase.Name = string.Empty;
+    }
+
+    public class StudentModel
+    {
+        public string ID { get; set; }
+        public string Name { get; set; }
+    }
+
+    public class StudentService
+    {
+        private List<StudentModel> students = new List<StudentModel>();
+
+        public List<StudentModel> GetAllStudents() => new List<StudentModel>(students);
+
+        public void AddStudent(StudentModel student) => students.Add(student);
+
+        public void DeleteStudent(string id) => students.RemoveAll(s => s.ID == id);
+
+        public void EditStudent(StudentModel editedStudent)
+        {
+            var student = students.FirstOrDefault(s => s.ID == editedStudent.ID);
+            if (student != null) student.Name = editedStudent.Name;
+        }
+
+        public List<StudentModel> SearchStudents(string searchTerm) =>
+            students.Where(s => s.ID.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                                s.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+}

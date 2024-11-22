@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IPT_DEMO.props" />
+</Project>
