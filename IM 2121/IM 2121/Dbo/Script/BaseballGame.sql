@@ -59,10 +59,7 @@ UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-25'
 WHERE GameID = 1;  -- Only update GameID '1' (use integer value)
 GO
-
--- Select all records to verify the update
 SELECT * FROM dbo.BaseballGame;
-GO
 
 -- Update the GameDate for another specific record
 
