@@ -31,6 +31,8 @@ CREATE TABLE dbo.BaseballGame
 CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame ([TeamName] ASC)
 GO
 
+-- Select column names and data types from the INFORMATION_SCHEMA.COLUMNS view
+-- for the BaseballGame table. This can be used to verify the table's schema.
 SELECT Column_Name, Data_Type 
 FROM INFORMATION_SCHEMA.COLUMNS 
 WHERE Table_Name = 'BaseballGame'; 

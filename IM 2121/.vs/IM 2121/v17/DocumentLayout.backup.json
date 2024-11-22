@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
