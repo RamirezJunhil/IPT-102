@@ -27,6 +27,8 @@ CREATE TABLE dbo.BaseballGame
 
     CONSTRAINT PK_BaseballGame_GameID PRIMARY KEY CLUSTERED (GameID)  -- Primary Key Constraint
 )
+GO
+
 -- Create a unique non-clustered index on the TeamName field
 CREATE UNIQUE NONCLUSTERED INDEX UX_TeamName ON dbo.BaseballGame ([TeamName] ASC)
 GO
@@ -35,10 +37,10 @@ GO
 -- for the BaseballGame table. This can be used to verify the table's schema.
 SELECT Column_Name, Data_Type 
 FROM INFORMATION_SCHEMA.COLUMNS 
-WHERE Table_Name = 'BaseballGame'; 
+WHERE Table_Name = 'BaseballGame';
 GO
 
----- Insert records into the BaseballGame table
+-- Insert records into the BaseballGame table
 BEGIN
     INSERT INTO dbo.BaseballGame (GameID, TeamName, GameDate)
     VALUES
@@ -57,17 +59,23 @@ UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-25'
 WHERE GameID = 1;  -- Only update GameID '1' (use integer value)
 GO
+
+-- Select all records to verify the update
 SELECT * FROM dbo.BaseballGame;
+GO
+
+-- Update the GameDate for another specific record
+
+GO
 
 -- Delete the record from the BaseballGame table where GameID is '3'
 DELETE FROM dbo.BaseballGame
 WHERE GameID = 3;-- Use integer value
 UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-25'
-WHERE GameID = 2;
+WHERE GameID = 2;  -- Use integer value
 GO
 SELECT * FROM dbo.BaseballGame;
-
 
 -- Truncate Table and show empty results
 TRUNCATE TABLE dbo.BaseballGame;
