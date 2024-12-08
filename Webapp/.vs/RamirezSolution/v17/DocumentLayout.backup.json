@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\web\\IPT-102\\Webapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\eventlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\data\\eventlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\interactive.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\data\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,16 +58,8 @@
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\event.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\videos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\music.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\music.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|solutionrelative:ramirezsolution\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{791BBFDD-0359-4F79-90C8-B8E46E6E069F}|RamirezSolution\\RamirezSolution.csproj|c:\\web\\ipt-102\\webapp\\ramirezsolution\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -126,35 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Project.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
-              "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
-              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
-              "RelativeToolTip": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-01T07:09:41.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dept_Location.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
-              "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
-              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
-              "RelativeToolTip": "..\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-01T07:09:40.895Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -164,14 +140,14 @@
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Interactive.razor",
               "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Interactive.razor",
               "RelativeToolTip": "RamirezSolution\\Pages\\Interactive.razor",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAQwAoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAYwHAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-06T05:25:23.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EventModel.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\EventModel.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\EventModel.cs",
@@ -183,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\UserProfile.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\UserProfile.cs",
@@ -191,12 +167,11 @@
               "RelativeToolTip": "RamirezSolution\\Data\\UserProfile.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T05:37:25.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T05:37:25.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EventLogic.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\EventLogic.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\EventLogic.cs",
@@ -204,12 +179,11 @@
               "RelativeToolTip": "RamirezSolution\\Data\\EventLogic.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T08:20:53.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T08:20:53.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ContactModel.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\ContactModel.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\ContactModel.cs",
@@ -221,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ContactLogic.cs",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Data\\ContactLogic.cs",
               "RelativeDocumentMoniker": "RamirezSolution\\Data\\ContactLogic.cs",
@@ -233,7 +207,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Videos.razor",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Videos.razor",
+              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Videos.razor",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Videos.razor",
+              "RelativeToolTip": "RamirezSolution\\Pages\\Videos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T08:08:11.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Profile.razor",
+              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Profile.razor",
+              "RelativeToolTip": "RamirezSolution\\Pages\\Profile.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:58:30.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dept_Location.sql",
+              "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
+              "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
+              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
+              "RelativeToolTip": "..\\RamirezCompany\\RamirezCompany\\Script\\Dept_Location.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-01T07:09:40.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Project.sql",
+              "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
+              "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
+              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
+              "RelativeToolTip": "..\\RamirezCompany\\RamirezCompany\\Script\\Project.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-01T07:09:41.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Dependent.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Dependent.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Dependent.sql",
@@ -245,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Department.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Department.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Department.sql",
@@ -257,19 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Profile.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Profile.razor",
-              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Profile.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Profile.razor",
-              "RelativeToolTip": "RamirezSolution\\Pages\\Profile.razor",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T07:58:30.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Event.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Event.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Event.razor",
@@ -281,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Shared\\MainLayout.razor",
@@ -293,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Employee.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Script\\Employee.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Script\\Employee.sql",
@@ -329,19 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Videos.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Videos.razor",
-              "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Videos.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Videos.razor",
-              "RelativeToolTip": "RamirezSolution\\Pages\\Videos.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T08:08:11.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Music.razor",
               "DocumentMoniker": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\Pages\\Music.razor",
               "RelativeDocumentMoniker": "RamirezSolution\\Pages\\Music.razor",
@@ -369,7 +369,7 @@
               "Title": "Employee_Create.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql",
-              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(JOVERA\\Admin)",
+              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Create.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(KUPAL\\Admin)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-10-31T10:40:54.662Z",
               "EditorCaption": ""
@@ -380,7 +380,7 @@
               "Title": "Employee_Read.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql",
-              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(JOVERA\\Admin)",
+              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Read.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(KUPAL\\Admin)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-04T01:29:55.742Z",
               "EditorCaption": ""
@@ -391,7 +391,7 @@
               "Title": "Employee_Update.sql",
               "DocumentMoniker": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql",
               "RelativeDocumentMoniker": "..\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql",
-              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(JOVERA\\Admin)",
+              "ToolTip": "C:\\web\\IPT-102\\RamirezCompany\\RamirezCompany\\Stored_Procedured\\Employee_Update.sql\r\n(localdb)\\ProjectModels.RamirezCompany_2\r\n(KUPAL\\Admin)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-04T01:29:30.159Z",
               "EditorCaption": ""

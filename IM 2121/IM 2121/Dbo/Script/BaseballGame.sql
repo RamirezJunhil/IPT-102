@@ -12,7 +12,7 @@ USE Baseball;
 GO
 
 -- Drop Table if it Exists to avoid conflict
-IF OBJECT_ID('dbo.BaseballGame', 'U') IS NOT NULL
+IF OBJECT_ID('dbo.BaseballGame') IS NOT NULL
 BEGIN
     DROP TABLE dbo.BaseballGame;
 END
@@ -59,14 +59,7 @@ UPDATE dbo.BaseballGame
 SET GameDate = '2024-11-25'
 WHERE GameID = 1;  -- Only update GameID '1' (use integer value)
 GO
-
--- Select all records to verify the update
 SELECT * FROM dbo.BaseballGame;
-GO
-
--- Update the GameDate for another specific record
-
-GO
 
 -- Delete the record from the BaseballGame table where GameID is '3'
 DELETE FROM dbo.BaseballGame

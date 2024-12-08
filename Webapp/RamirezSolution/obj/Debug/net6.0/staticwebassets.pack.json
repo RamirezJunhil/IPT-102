@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RamirezSolution.bundle.scp.css",
-      "PackagePath": "staticwebassets\\RamirezSolution.bundle.scp.css"
+      "PackagePath": "staticwebassets\\RamirezSolution.zr6dn95p5e.bundle.scp.css"
     },
     {
       "Id": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -51,6 +51,10 @@
     {
       "Id": "C:\\web\\IPT-102\\Webapp\\RamirezSolution\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RamirezSolution.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RamirezSolution.Microsoft.AspNetCore.StaticWebAssets.props",
