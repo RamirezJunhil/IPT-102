@@ -60,6 +60,13 @@ SET GameDate = '2024-11-25'
 WHERE GameID = 1;  -- Only update GameID '1' (use integer value)
 GO
 SELECT * FROM dbo.BaseballGame;
+<<<<<<< HEAD
+=======
+
+-- Update the GameDate for another specific record
+
+GO
+>>>>>>> a0f2ef8618a7cf4ec32e4f99bfc51e695e6fadda
 
 -- Delete the record from the BaseballGame table where GameID is '3'
 DELETE FROM dbo.BaseballGame
