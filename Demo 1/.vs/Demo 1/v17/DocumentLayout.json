@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
+          "DockedHeight": 208,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Demo 1\\Pages\\Index.razor",
               "ToolTip": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Pages\\Index.razor",
               "RelativeToolTip": "Demo 1\\Pages\\Index.razor",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAIwHkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T13:24:22.378Z",
               "EditorCaption": ""
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "DockedHeight": 78,
+          "DockedHeight": 70,
           "SelectedChildIndex": -1,
           "Children": [
             {
