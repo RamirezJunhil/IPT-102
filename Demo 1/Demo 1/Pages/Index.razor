@@ -55,13 +55,13 @@
                         @if (editingBook?.BookID == book.BookID)
                         {
                             <button @onclick="SaveEdit" class="btn btn-primary btn-sm">Save</button>
-                            <button @onclick="CancelEdit" class="btn btn-secondary btn-sm">Cancel</button>
                         }
                         else
                         {
                             <button @onclick="() => EditBook(book)" class="btn btn-info btn-sm">Edit</button>
-                            <button @onclick="() => DeleteBook(book.BookID)" class="btn btn-danger btn-sm">Delete</button>
+                            <button @onclick="() => DeleteBook(book.BookID)" class="btn btn-info btn-sm">Delete</button>
                         }
+
                     </td>
                 </tr>
             }
@@ -99,12 +99,6 @@
         editingBook = null;
     }
 
-    // Method to cancel edits
-    private void CancelEdit()
-    {
-        editingBook = null;
-    }
-
     // Method to delete a book
     private void DeleteBook(int bookId)
     {
@@ -126,7 +120,7 @@
     }
 
     // Book model class
-    private class BookModel
+    public class BookModel
     {
         public int BookID { get; set; }
         public string Title { get; set; } = string.Empty;

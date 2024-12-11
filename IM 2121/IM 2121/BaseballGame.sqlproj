@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{cebdc7af-6b53-472f-8122-cfcae737a8aa}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -63,5 +63,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Dbo\Script\BaseballGame.sql" />
+    <None Include="BaseballGame.publish.xml" />
+    <None Include="Dbo\Script\Execute.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Dbo\Table\BaseballGame.sql" />
+    <Build Include="Dbo\Stored_Procedure\Create_Store_Procedure.sql" />
+    <Build Include="Dbo\Stored_Procedure\Read_Stored_Procedure.sql" />
+    <Build Include="Dbo\Stored_Procedure\Update_Stored_Procedure.sql" />
+    <Build Include="Dbo\Stored_Procedure\Delete_Stored_Procedure.sql" />
   </ItemGroup>
 </Project>
