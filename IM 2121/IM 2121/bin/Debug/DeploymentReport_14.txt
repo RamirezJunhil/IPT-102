@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[BaseballGame]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Recreate table
+       [dbo].[BaseballGame] (Table)
+
+** Supporting actions
+     Create
+       [dbo].[BaseballGame].[UX_TeamName] (Index)
+     Refresh
+       [dbo].[CreateBaseballGame] (Procedure)
+       [dbo].[DeleteBaseballGame] (Procedure)
+       [dbo].[ReadBaseballGames] (Procedure)
+       [dbo].[UpdateBaseballGame] (Procedure)
+
+If this deployment is executed, changes to [dbo].[BaseballGame] might introduce run-time errors in [dbo].[ReadBaseballGame].
+

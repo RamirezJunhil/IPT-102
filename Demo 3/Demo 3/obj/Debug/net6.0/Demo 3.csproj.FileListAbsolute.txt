@@ -33,3 +33,75 @@ C:\Users\Admin\Documents\IPT DEMO\Demo 3\Demo 3\obj\Debug\net6.0\refint\Demo 3.d
 C:\Users\Admin\Documents\IPT DEMO\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.pdb
 C:\Users\Admin\Documents\IPT DEMO\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.genruntimeconfig.cache
 C:\Users\Admin\Documents\IPT DEMO\Demo 3\Demo 3\obj\Debug\net6.0\ref\Demo 3.dll
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.staticwebassets.endpoints.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.exe
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.deps.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.runtimeconfig.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.dll
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.pdb
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.AssemblyInfo.cs
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.sourcelink.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\bundle\Demo 3.styles.css
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\projectbundle\Demo 3.bundle.scp.css
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.Demo 3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.Demo 3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.build.Demo 3.props
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Demo 3.props
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Demo 3.props
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.dll
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\refint\Demo 3.dll
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.pdb
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.genruntimeconfig.cache
+C:\Users\Admin\Desktop\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\ref\Demo 3.dll
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\appsettings.Development.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\appsettings.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.staticwebassets.endpoints.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.staticwebassets.runtime.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.exe
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.deps.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.runtimeconfig.json
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.dll
+C:\webb\IPT-102\Demo 3\Demo 3\bin\Debug\net6.0\Demo 3.pdb
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.AssemblyInfoInputs.cache
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.AssemblyInfo.cs
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.csproj.CoreCompileInputs.cache
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.MvcApplicationPartsAssemblyInfo.cache
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.RazorAssemblyInfo.cache
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.RazorAssemblyInfo.cs
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.sourcelink.json
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\bundle\Demo 3.styles.css
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\scopedcss\projectbundle\Demo 3.bundle.scp.css
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.build.json
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.development.json
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.Demo 3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.Demo 3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.build.Demo 3.props
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Demo 3.props
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Demo 3.props
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.dll
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\refint\Demo 3.dll
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.pdb
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\Demo 3.genruntimeconfig.cache
+C:\webb\IPT-102\Demo 3\Demo 3\obj\Debug\net6.0\ref\Demo 3.dll

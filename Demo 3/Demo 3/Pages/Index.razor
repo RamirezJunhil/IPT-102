@@ -5,11 +5,11 @@
 
 <!-- Form group for input fields -->
 <div class="form-group">
-    <label for="bookTitle">Title</label>
-    <input id="bookTitle" @bind="book.Title" class="form-control" />
+    <label for="">Title</label>
+    <input id="" @bind="book.Title" class="form-control" />
 
-    <label for="bookBorrower">Borrower</label>
-    <input id="bookBorrower" @bind="book.Borrower" class="form-control" />
+    <label for="">Borrower</label>
+    <input id="" @bind="book.Borrower" class="form-control" />
 </div>
 
 <!-- Buttons for adding a new book and saving changes -->
@@ -72,6 +72,7 @@ else
               Borrower = book.Borrower
             };
             books.Add(newBook);
+            UpdateBookIds();
 
             // Reset the form after adding the book
             book = new BookModel();
@@ -115,8 +116,19 @@ else
         if (bookToDelete != null)
         {
             books.Remove(bookToDelete);
+            UpdateBookIds();
         }
     }
+
+    // Method to update book IDs to keep them sequential
+    private void UpdateBookIds()
+    {
+        for (int i = 0; i < books.Count; i++)
+        {
+            books[i].BookID = i + 1;
+        }
+    }
+
 
     // Model for representing a book
     public class BookModel

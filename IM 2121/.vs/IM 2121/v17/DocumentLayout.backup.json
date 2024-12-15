@@ -1,30 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\web\\IPT-102\\IM 2121\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\IPT-102\\IM 2121\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{8D61AB71-C2DB-4A61-A438-07258FB4B69B}|..\\Demo 3\\Demo 3\\Demo 3.csproj|c:\\users\\admin\\desktop\\ipt-102\\demo 3\\demo 3\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Delete_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Stored_Procedure\\Delete_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{8D61AB71-C2DB-4A61-A438-07258FB4B69B}|..\\Demo 3\\Demo 3\\Demo 3.csproj|c:\\users\\admin\\desktop\\ipt-102\\demo 3\\demo 3\\demo 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Update_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Stored_Procedure\\Update_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Script\\BaseballGame.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{CEBDC7AF-6B53-472F-8122-CFCAE737A8AA}|IM 2121\\BaseballGame.sqlproj|solutionrelative:IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{8D61AB71-C2DB-4A61-A438-07258FB4B69B}|..\\Demo 3\\Demo 3\\Demo 3.csproj|c:\\users\\admin\\desktop\\ipt-102\\demo 3\\demo 3\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,73 +18,56 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 395,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Demo 3",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Demo 3.csproj",
+              "RelativeDocumentMoniker": "..\\Demo 3\\Demo 3\\Demo 3.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Demo 3.csproj",
+              "RelativeToolTip": "..\\Demo 3\\Demo 3\\Demo 3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T09:07:27.554Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Read_Stored_Procedure.sql ",
-              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql",
-              "RelativeDocumentMoniker": "IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql",
-              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Read_Stored_Procedure.sql\r\n(localdb)\\ProjectModels.BaseballGame\r\n(KUPAL\\Admin)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-11T01:07:22.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete_Stored_Procedure.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Delete_Stored_Procedure.sql",
-              "RelativeDocumentMoniker": "IM 2121\\Dbo\\Stored_Procedure\\Delete_Stored_Procedure.sql",
-              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Delete_Stored_Procedure.sql\r\n(localdb)\\ProjectModels.BaseballGame\r\n(KUPAL\\Admin)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-11T01:10:59.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Update_Stored_Procedure.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Update_Stored_Procedure.sql",
-              "RelativeDocumentMoniker": "IM 2121\\Dbo\\Stored_Procedure\\Update_Stored_Procedure.sql",
-              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Update_Stored_Procedure.sql\r\n(localdb)\\ProjectModels.BaseballGame\r\n(KUPAL\\Admin)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-11T01:09:40.536Z",
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "..\\Demo 3\\Demo 3\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Pages\\FetchData.razor",
+              "RelativeToolTip": "..\\Demo 3\\Demo 3\\Pages\\FetchData.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T09:07:11.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create_Stored_Procedure.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql",
-              "RelativeDocumentMoniker": "IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql",
-              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql",
-              "RelativeToolTip": "IM 2121\\Dbo\\Stored_Procedure\\Create_Stored_Procedure.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-11T01:01:16.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseballGame.sql",
-              "DocumentMoniker": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
-              "RelativeDocumentMoniker": "IM 2121\\Dbo\\Script\\BaseballGame.sql",
-              "ToolTip": "C:\\web\\IPT-102\\IM 2121\\IM 2121\\Dbo\\Script\\BaseballGame.sql",
-              "RelativeToolTip": "IM 2121\\Dbo\\Script\\BaseballGame.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-21T01:55:49.451Z",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "..\\Demo 3\\Demo 3\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\IPT-102\\Demo 3\\Demo 3\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\Demo 3\\Demo 3\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T09:05:42.199Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 1149,
+          "DockedWidth": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {

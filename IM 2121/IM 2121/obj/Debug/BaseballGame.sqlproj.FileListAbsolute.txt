@@ -18,3 +18,9 @@ C:\web\IPT-102\IM 2121\IM 2121\obj\Debug\postdeploy.sql
 C:\web\IPT-102\IM 2121\IM 2121\obj\Debug\predeploy.sql
 C:\web\IPT-102\IM 2121\IM 2121\obj\Debug\IM_2121.dll
 C:\web\IPT-102\IM 2121\IM 2121\obj\Debug\IM_2121.pdb
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\bin\Debug\BaseballGame.dacpac
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\bin\Debug\IM_2121.dll
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\bin\Debug\IM_2121.pdb
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\obj\Debug\BaseballGame.sqlproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\obj\Debug\IM_2121.dll
+C:\Users\Admin\Desktop\IPT-102\IM 2121\IM 2121\obj\Debug\IM_2121.pdb

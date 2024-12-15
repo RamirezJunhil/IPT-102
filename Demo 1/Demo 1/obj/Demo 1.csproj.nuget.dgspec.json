@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj": {}
+    "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj": {}
   },
   "projects": {
-    "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj": {
+    "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj",
+        "projectUniqueName": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj",
         "projectName": "Demo 1",
-        "projectPath": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj",
+        "projectPath": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Demo 1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\obj\\",
+        "outputPath": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
