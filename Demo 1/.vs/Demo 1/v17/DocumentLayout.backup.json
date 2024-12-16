@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\web\\IPT-102\\Demo 1\\",
+  "WorkspaceRootPath": "C:\\webb\\IPT-102\\Demo 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|c:\\web\\ipt-102\\demo 1\\demo 1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|c:\\webb\\ipt-102\\demo 1\\demo 1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|solutionrelative:demo 1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|c:\\web\\ipt-102\\demo 1\\demo 1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|c:\\webb\\ipt-102\\demo 1\\demo 1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A5EDE17-A41D-4066-AA38-CFF95FDFE6A4}|Demo 1\\Demo 1.csproj|solutionrelative:demo 1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Shared\\NavMenu.razor",
+              "DocumentMoniker": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "Demo 1\\Shared\\NavMenu.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Shared\\NavMenu.razor",
               "RelativeToolTip": "Demo 1\\Shared\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.razor",
-              "DocumentMoniker": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Pages\\Index.razor",
+              "DocumentMoniker": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Demo 1\\Pages\\Index.razor",
-              "ToolTip": "C:\\web\\IPT-102\\Demo 1\\Demo 1\\Pages\\Index.razor",
+              "ToolTip": "C:\\webb\\IPT-102\\Demo 1\\Demo 1\\Pages\\Index.razor",
               "RelativeToolTip": "Demo 1\\Pages\\Index.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T13:24:22.378Z",
               "EditorCaption": ""

@@ -33,3 +33,39 @@ C:\Users\Admin\Documents\IPT DEMO\Demo 1\Demo 1\obj\Debug\net6.0\refint\Demo 1.d
 C:\Users\Admin\Documents\IPT DEMO\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.pdb
 C:\Users\Admin\Documents\IPT DEMO\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.genruntimeconfig.cache
 C:\Users\Admin\Documents\IPT DEMO\Demo 1\Demo 1\obj\Debug\net6.0\ref\Demo 1.dll
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\appsettings.Development.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\appsettings.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.staticwebassets.endpoints.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.staticwebassets.runtime.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.exe
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.deps.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.runtimeconfig.json
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.dll
+C:\webb\IPT-102\Demo 1\Demo 1\bin\Debug\net6.0\Demo 1.pdb
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.AssemblyInfoInputs.cache
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.AssemblyInfo.cs
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.csproj.CoreCompileInputs.cache
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.MvcApplicationPartsAssemblyInfo.cache
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.RazorAssemblyInfo.cache
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.RazorAssemblyInfo.cs
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.sourcelink.json
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\scopedcss\bundle\Demo 1.styles.css
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\scopedcss\projectbundle\Demo 1.bundle.scp.css
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets.build.json
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets.development.json
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets\msbuild.Demo 1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets\msbuild.Demo 1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets\msbuild.build.Demo 1.props
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Demo 1.props
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Demo 1.props
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.dll
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\refint\Demo 1.dll
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.pdb
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\Demo 1.genruntimeconfig.cache
+C:\webb\IPT-102\Demo 1\Demo 1\obj\Debug\net6.0\ref\Demo 1.dll
